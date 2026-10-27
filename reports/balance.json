@@ -1,44 +1,83 @@
 {
-  "maxHp": 300,
+  "version": "individual-hp",
+  "profiles": [
+    {
+      "name": "燎原の剣士",
+      "maxHp": 120,
+      "element": "火"
+    },
+    {
+      "name": "月泉の巫女",
+      "maxHp": 100,
+      "element": "聖光"
+    },
+    {
+      "name": "逆風の射手",
+      "maxHp": 95,
+      "element": "自然"
+    },
+    {
+      "name": "琥珀の守人",
+      "maxHp": 160,
+      "element": "自然"
+    },
+    {
+      "name": "宵闇の魔術師",
+      "maxHp": 100,
+      "element": "呪闇"
+    },
+    {
+      "name": "翠樹の薬師",
+      "maxHp": 110,
+      "element": "自然"
+    },
+    {
+      "name": "雷鳴の渡り鳥",
+      "maxHp": 105,
+      "element": "聖光"
+    },
+    {
+      "name": "霧海の旅人",
+      "maxHp": 130,
+      "element": "水"
+    }
+  ],
   "results": [
     {
       "mode": "balanced",
       "games": 500,
-      "mean": 12.51,
-      "median": 11,
-      "p10": 7,
-      "p90": 20,
-      "min": 6,
-      "max": 24,
-      "within10to15": 179,
-      "cappedAt300": 0,
-      "playerWins": 350
+      "mean": 25.16,
+      "median": 25,
+      "p10": 18,
+      "p90": 33,
+      "min": 11,
+      "max": 55,
+      "unfinished": 0,
+      "playerWins": 317
     },
     {
       "mode": "attack",
       "games": 500,
-      "mean": 10.68,
-      "median": 9,
-      "p10": 7,
-      "p90": 17,
-      "min": 6,
-      "max": 22,
-      "within10to15": 183,
-      "cappedAt300": 0,
-      "playerWins": 277
+      "mean": 24.52,
+      "median": 24,
+      "p10": 18,
+      "p90": 32,
+      "min": 11,
+      "max": 43,
+      "unfinished": 0,
+      "playerWins": 220
     },
     {
       "mode": "healing",
       "games": 500,
-      "mean": 21.19,
-      "median": 22,
-      "p10": 14,
-      "p90": 27,
-      "min": 7,
-      "max": 31,
-      "within10to15": 48,
-      "cappedAt300": 0,
-      "playerWins": 53
+      "mean": 30.44,
+      "median": 31,
+      "p10": 22,
+      "p90": 39,
+      "min": 14,
+      "max": 52,
+      "unfinished": 0,
+      "playerWins": 85
     }
   ]
 }

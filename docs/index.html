@@ -2,23 +2,25 @@
 :root{color-scheme:dark;--bg:#101b24;--panel:#192630;--text:#eae7db;--muted:#94a4a9;--gold:#d7bd7e;--line:#334047}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 20%,#20313a 0,transparent 55%),var(--bg);color:var(--text);font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;font-size:14px}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:disabled{cursor:default}button:focus-visible,a:focus-visible{outline:2px solid #efcf88;outline-offset:4px}.shell{max-width:1040px;margin:auto;padding:0 42px}header{height:100px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text);font:600 24px 'Noto Serif JP','Hiragino Mincho ProN','Yu Mincho',serif;letter-spacing:3px}.brand small{display:block;font:9px 'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;letter-spacing:4px;margin-top:5px;color:var(--muted)}.brand-mark{color:var(--gold);font-size:43px}.quiet{border:1px solid #506066;color:var(--text);background:transparent;padding:10px 15px;border-radius:5px}.quiet span{margin-left:10px;color:var(--gold)}main{max-width:820px;margin:auto}.battle-heading{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;letter-spacing:2px;margin:26px 0 20px}.combatant{display:flex;gap:15px;align-items:center;position:relative;max-width:510px;margin:auto}.avatar{width:54px;height:58px;border:1px solid #877453;background:#2a2c2a;display:grid;place-items:center;font-size:37px;color:#dccca1;border-radius:12px 2px}.player .avatar{color:#b9d9d0;border-color:#507f78;background:#21383a}.combatant-info{flex:1}.name-line{display:flex;justify-content:space-between;align-items:center}.name-line h2{font:600 17px 'Noto Serif JP','Hiragino Mincho ProN','Yu Mincho',serif;margin:0}.name-line>span{font-size:10px;color:var(--muted)}.health-label{display:flex;justify-content:space-between;margin:7px 0 5px;font-size:10px;color:var(--muted)}.health-label strong{color:var(--text);font-size:16px;font-variant-numeric:tabular-nums;line-height:16px}.health-label strong span{font-size:10px;color:var(--muted);font-weight:400}.health-track{height:6px;background:#0c141b;border-radius:5px;overflow:hidden}.health-track>div{height:100%;background:linear-gradient(90deg,#9e6a52,#d8a275);transition:width .5s}.player .health-track>div{background:linear-gradient(90deg,#4b8d80,#a9cbb1)}.enemy-hand{display:flex;justify-content:center;margin:18px 0 0;gap:5px}.enemy-hand i{width:27px;height:37px;display:grid;place-items:center;border:1px solid #596369;outline:1px solid #2c3b42;outline-offset:-4px;background:repeating-linear-gradient(45deg,#25343b,#25343b 3px,#202f36 3px,#202f36 6px);border-radius:3px;color:#ae9c74;font-size:18px}.arena{position:relative;text-align:center;min-height:325px;padding:24px 0 20px;overflow:hidden}.arena-ring{position:absolute;width:258px;height:258px;border:1px solid #b29c5f18;left:50%;top:9px;transform:translateX(-50%) rotate(45deg);border-radius:50%;pointer-events:none}.arena-ring:after{content:'';position:absolute;inset:20px;border:1px dashed #b29c5f22;border-radius:50%}.eyebrow{font-size:10px;color:var(--gold);letter-spacing:3px}.phase{font-size:12px;color:#c1c9c8;margin:13px 0 17px}.die{position:relative;margin:auto;width:76px;height:76px;border:1px solid var(--gold);border-radius:16px;background:linear-gradient(140deg,#3e4540,#202c30);box-shadow:0 0 35px #e0be5e12,inset 0 0 0 5px #293639;font:500 48px 'Noto Serif JP','Hiragino Mincho ProN','Yu Mincho',serif;color:#ead6a5;line-height:74px;transform:rotate(-5deg)}.arena-message{font-size:12px;color:var(--muted);margin:16px 0}.primary{border:1px solid #e3ce95;border-radius:5px;background:linear-gradient(110deg,#d9c48d,#bea36b);color:#202925;min-height:48px;padding:12px 28px;font-weight:700;letter-spacing:1px;box-shadow:0 4px 16px #0002}.primary:hover:enabled{filter:brightness(1.1)}.primary:disabled{background:#29373d;border-color:#49565a;color:#8c9b9c;box-shadow:none}.arena .primary{min-width:245px}.last-action{font-size:11px;color:#99aaa9;margin-top:16px;min-height:18px}.player{margin-top:12px}.hand-section{margin-top:30px}.section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;gap:12px}.section-title h2{font-size:14px;font-weight:500;margin:0}.section-title h2 span{font-size:10px;color:var(--muted);margin-left:7px}.section-title small,.live-dot{font-size:10px;color:var(--muted)}.hand{display:flex;gap:12px;overflow-x:auto;padding:4px 2px 14px;scroll-snap-type:x proximity;scrollbar-color:#59615b transparent;scrollbar-width:thin}.card{--accent:#b3c6c4;position:relative;flex:0 0 190px;scroll-snap-align:start;text-align:left;color:var(--text);padding:11px 10px 9px;border:1px solid #65716a;border-radius:9px;background:linear-gradient(155deg,#2c3c40,#1b2b32);transition:transform .2s,border-color .2s}.card:hover:enabled{transform:translateY(-4px);border-color:var(--gold)}.card:disabled{opacity:.65}.ember{--accent:#e3a586}.moon{--accent:#c1addf}.wind{--accent:#a5cdb1}.gold{--accent:#d7c18b}.tide{--accent:#8bc1d0}.card-top{display:flex;justify-content:space-between;font-size:9px;color:var(--accent)}.card-art{position:relative;height:80px;display:grid;place-items:center;color:var(--accent);font:58px Georgia,serif;background:radial-gradient(ellipse,#a3b9aa15,transparent 68%);text-shadow:0 0 24px #b0d9bc2b}.art-orbit{position:absolute;width:66px;height:66px;border:1px solid currentColor;border-radius:50%;opacity:.18;transform:rotate(-25deg)}.art-orbit:after{content:'';position:absolute;inset:7px;border:1px dashed currentColor;border-radius:50%}.card h3{text-align:center;font:600 16px 'Noto Serif JP','Hiragino Mincho ProN','Yu Mincho',serif;margin:5px 0 12px;color:var(--accent)}.action-row{display:grid;grid-template-columns:18px 1fr auto;gap:4px;align-items:center;min-height:29px;border-top:1px solid #ffffff0b;font-size:10px;padding:3px 2px;color:#bec8c6}.action-row b{font-weight:500;font-size:9px;white-space:nowrap}.number{color:#8e9b99;font-size:10px;text-align:center}.action-row.active{background:#d7bd7e22;box-shadow:inset 2px 0 var(--gold);color:#ffe6ab}.active .number{color:#ffe6ab;font-weight:700}.card-bottom{text-align:center;font-size:9px;color:#8d9e9e;border-top:1px solid #6272704d;padding-top:9px;margin-top:7px}.scroll-hint{text-align:center;font-size:10px;color:#758c91;margin-top:1px}.log-section{margin:27px 0 30px;padding-top:20px;border-top:1px solid var(--line)}.live-dot:before{content:'•';color:#a0b99c;margin-right:5px}#log{list-style:none;padding:0;max-height:220px;overflow:auto;margin:0}#log li{display:flex;gap:20px;padding:12px 4px;border-bottom:1px solid #ffffff08;font-size:11px}#log li>span{flex:0 0 45px;color:var(--gold)}#log small{display:block;font-size:9px;color:var(--muted);margin-top:3px}#log b{font-weight:500;color:#cbd5d1}#log p{color:var(--muted);margin:5px 0 0;font-size:10px}#log .empty-log{color:var(--muted)}footer{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:22px 0 30px;color:#82918f;font-size:11px}footer span{font-size:9px}dialog{position:fixed;width:min(440px,calc(100% - 28px));max-height:90dvh;overflow:auto;background:#1b2b32;color:var(--text);border:1px solid #7c806a;border-radius:12px;padding:30px;box-shadow:0 20px 100px #0009}dialog::backdrop{background:#061017d9;backdrop-filter:blur(6px)}dialog h2{font:600 25px 'Noto Serif JP','Hiragino Mincho ProN','Yu Mincho',serif;line-height:1.7;margin:12px 0}dialog p{font-size:12px;color:#b0bfbc;line-height:1.9}dialog .primary{width:100%;margin-top:20px}.close{position:absolute;right:10px;top:8px;background:none;border:0;color:#bac6bf;font-size:28px;width:40px;height:40px}.detail-symbol{font-size:50px;color:var(--accent);margin-bottom:15px}.detail-actions .action-row{font-size:13px;min-height:41px;grid-template-columns:22px 1fr auto}.detail-actions .action-row b{font-size:11px}.dialog-note{text-align:center;font-size:10px}.rules{padding-left:24px}.rules li{margin-top:22px;color:var(--gold)}.rules b{font-size:14px;color:var(--text)}.rules p{margin-top:6px}.rule-end{padding-top:15px;border-top:1px solid var(--line)}#result-dialog{text-align:center;padding-top:40px}.result-symbol{font-size:64px;color:var(--gold)}#result-dialog .quiet{margin-top:15px;border:0}.float{position:absolute;right:15px;top:0;opacity:0;pointer-events:none;font-size:27px;font-weight:700;z-index:3}.damage{color:#ffab88}.healing{color:#b4ebba}.animate{animation:float 1.1s ease-out}.rolling{animation:roll .16s infinite alternate}@keyframes float{0%{opacity:0;transform:translateY(5px)}25%{opacity:1}100%{opacity:0;transform:translateY(-50px)}}@keyframes roll{from{transform:rotate(-14deg) scale(.94)}to{transform:rotate(14deg) scale(1.04)}}@media(min-width:1000px){.hand{justify-content:flex-start}.card{flex-basis:154px;padding:9px 7px}.card h3{font-size:14px}.card-art{height:73px}.action-row{font-size:9px;gap:2px;grid-template-columns:15px 1fr auto}.action-row b{font-size:8px}}@media(max-width:600px){.shell{padding:0 18px}header{height:80px}.brand{font-size:21px}.brand-mark{font-size:35px}.brand small{font-size:8px}.quiet{font-size:12px;padding:9px 11px}.battle-heading{margin:19px 0 18px;font-size:10px}.combatant{gap:12px}.avatar{width:45px;height:51px;font-size:31px}.arena{min-height:309px;padding-top:23px}.enemy-hand{margin-top:15px}.enemy-hand i{height:30px;width:23px}.arena .eyebrow{font-size:9px}.phase{margin-top:12px}.die{height:70px;width:70px;line-height:68px;font-size:43px}.last-action{font-size:10px;padding:0 7px;line-height:1.7}.hand-section{margin-top:24px}.section-title{align-items:baseline}.section-title small{font-size:9px}.hand{margin-right:-18px;padding-right:18px;gap:10px}.card{flex-basis:200px}.card h3{font-size:17px}.action-row{font-size:11px;min-height:30px}.action-row b{font-size:10px}.card-art{height:72px}.scroll-hint{text-align:left;padding-top:4px}footer{font-size:10px}footer span{font-size:8px}dialog{padding:26px 22px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
 .character-select{padding:0;background:none;border:0;color:inherit;display:block;width:100%;text-align:left}.character-select:disabled{opacity:.65}.skill-panel{border-top:1px solid #7c806a;margin-top:12px;padding-top:12px;font-size:11px}.skill-panel>b{color:var(--gold);line-height:1.8}.skill-panel p{color:#bbc9c6;line-height:1.8;min-height:66px;margin:7px 0}.skill-panel small{font-size:10px;color:var(--muted)}.skill-button{width:100%;min-height:46px;margin-top:10px;padding:8px 5px;border:1px solid #a7b496;background:#354b43;color:#e3eccb;border-radius:5px;font-size:12px}.skill-button:disabled{color:#b0bbb9;background:#26363b;border-color:#46545a;font-size:11px}.effect-status{text-align:center;min-height:16px;color:var(--gold);font-size:12px;margin:10px 0}.team-setup{margin:28px 0;padding:24px 0;border-bottom:1px solid var(--line)}.team-setup[hidden]{display:none}.team-setup h1{font:600 24px 'Noto Serif JP','Hiragino Mincho ProN','Yu Mincho',serif;line-height:1.8}.team-setup>p{font-size:13px;line-height:1.9;color:var(--muted)}.team-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.team-option{position:relative;display:flex;flex-direction:column;padding:16px;border:1px solid #51625e;border-radius:8px;background:#1d3036;cursor:pointer}.team-option:has(input:checked){border-color:var(--gold);box-shadow:inset 0 0 0 1px var(--gold)}.team-option input{position:absolute;right:12px;top:14px;accent-color:#d7bd7e;width:22px;height:22px}.team-symbol{font-size:35px;color:var(--accent)}.team-option>b{color:var(--accent);font-size:15px;margin:5px 0}.team-option>span:not(.team-symbol){font-size:11px;color:var(--muted)}.team-option small{color:var(--gold);font-size:11px;margin-top:12px;line-height:1.8}.team-option p{font-size:12px;line-height:1.8;color:#c1ceca}.team-confirm{position:sticky;bottom:0;z-index:5;display:flex;align-items:center;gap:15px;justify-content:space-between;padding:15px 0;background:#101b24f5;margin-top:18px}.team-confirm strong{font-size:12px;color:var(--gold)}.skill-detail{border-top:1px solid var(--line);margin-top:20px;padding-top:18px}.skill-detail>b{font-size:14px;color:var(--gold)}.hand .card{flex-basis:220px}.hand .action-row{font-size:12px;min-height:32px}.hand .action-row b{font-size:11px}.hand .card h3{font-size:17px}.hand .card:disabled{opacity:1}.team-actions .action-row{font-size:11px;min-height:30px}.team-actions .action-row b{font-size:10px}@media(max-width:600px){.team-options{grid-template-columns:1fr}.team-setup h1{font-size:22px}.team-confirm{gap:8px}.team-confirm .primary{font-size:12px;padding:12px}.team-confirm strong{font-size:11px}.skill-panel{font-size:12px}.skill-button{font-size:13px}.team-actions .action-row{font-size:12px}.team-actions .action-row b{font-size:11px}}
 .preparing main>:not(#team-setup){display:none}
+.member-state{font-size:11px;color:var(--gold);margin:8px 0 5px}.attribute{font-size:10px;line-height:1.8;color:#bacbc8}.member-hp{font-size:14px;font-weight:600;margin:6px 0}.card .health-track{margin-bottom:12px}.is-front{border-color:var(--gold)!important;box-shadow:inset 0 0 0 1px #d7bd7e66}.is-ko{filter:grayscale(1);opacity:.55}.is-ko .member-state{color:#ffb39a}.damage-preview{display:block;font-size:10px;color:#f4d59b;white-space:normal;line-height:1.7}.hand .action-row{min-height:35px}.enemy-team{display:flex;gap:9px;overflow-x:auto;padding:3px 2px 12px;margin:12px 0}.enemy-member{flex:0 0 155px;border:1px solid var(--line);border-radius:7px;background:#1b2b32;padding:11px}.enemy-member strong{font-size:12px;color:var(--text)}.enemy-member small{display:block;color:var(--muted);font-size:10px;line-height:1.7;margin-top:8px}.enemy-member .member-state{margin-top:6px}.target-label{display:block;font-size:13px;color:var(--gold);line-height:1.8;margin-top:18px}select{display:block;width:100%;margin-top:8px;padding:12px 8px;min-height:48px;border:1px solid #8a947e;background:#20373c;color:var(--text);border-radius:5px;font-size:14px}#front-options{display:grid;gap:10px}.front-option{display:block;width:100%;text-align:left;background:#24383c;color:var(--text);border:1px solid #687c71;border-radius:7px;padding:15px}.front-option:hover{border-color:var(--gold)}.front-option .attribute{font-size:12px}.name-line h2{font-size:15px}.hand .card{flex-basis:250px}.last-action{line-height:1.9}.effect-status{line-height:1.9}@media(max-width:600px){.enemy-team{margin-right:-18px;padding-right:18px}.hand .card{flex-basis:240px}.phase{font-size:11px}.name-line h2{font-size:14px}.arena .primary{max-width:100%;font-size:13px}.section-title small{max-width:52%;line-height:1.8;text-align:right}}
+.card .health-track>div{background:linear-gradient(90deg,#4b8d80,#a9cbb1)}.heal-pulse{animation:heal-pulse .8s ease-out}@keyframes heal-pulse{0%,40%{color:#c9ffb4;text-shadow:0 0 16px #b1e8a5}100%{color:inherit;text-shadow:none}}
 
 </style></head><body>
 <div class="shell"><header><a class="brand" href="#"><span class="brand-mark">✧</span><span>六耀の決闘<small>ろくようのけっとう</small></span></a><button id="rules-button" class="quiet">遊び方 <span>？</span></button></header>
-<main><section id="team-setup" class="team-setup"><div class="eyebrow">戦闘準備</div><h1>五つの個性を、ひとつのチームに。</h1><p>異なる5体を選択してください。通常技を使っても交代・補充されません。各カードで通常技と固有スキルを確認できます。</p><div id="team-options" class="team-options"></div><div class="team-confirm"><strong id="team-status"></strong><button id="team-start" class="primary">この5体で決闘を始める ↗</button></div></section><div class="battle-heading"><span>星巡りの闘技場</span><span id="turn">第1巡</span></div>
-<section class="combatant enemy" aria-label="対戦相手"><div class="avatar">♜</div><div class="combatant-info"><div class="name-line"><h2>宵の番人</h2><span>対戦相手</span></div><div class="health-label"><span>体力</span><strong id="cpu-hp"></strong></div><div class="health-track"><div id="cpu-bar"></div></div></div><span class="float" id="cpu-float"></span></section>
-<p id="cpu-effects" class="effect-status"></p><div class="enemy-hand" aria-label="相手の固定チーム5体"><i>✧</i><i>✧</i><i>✧</i><i>✧</i><i>✧</i></div>
+<main><section id="team-setup" class="team-setup"><div class="eyebrow">戦闘準備</div><h1>五つの個性を、ひとつのチームに。</h1><p>異なる5体を選択してください。キャラは消費・補充されません。通常技で出場し、そのキャラが敵の攻撃を受けます。各カードで通常技と固有スキルを確認できます。</p><div id="team-options" class="team-options"></div><div class="team-confirm"><strong id="team-status"></strong><button id="team-start" class="primary">この5体で決闘を始める ↗</button></div></section><div class="battle-heading"><span>星巡りの闘技場</span><span id="turn">第1巡</span></div>
+<section class="combatant enemy" aria-label="対戦相手"><div id="cpu-avatar" class="avatar">♜</div><div class="combatant-info"><div class="name-line"><h2 id="cpu-name">宵の番人</h2><span>対戦相手</span></div><div class="health-label"><span>体力</span><strong id="cpu-hp"></strong></div><div class="health-track"><div id="cpu-bar"></div></div></div><span class="float" id="cpu-float"></span></section>
+<p id="cpu-effects" class="effect-status"></p><div id="enemy-team" class="enemy-team" aria-label="敵チームの個別HPと前衛"></div>
 <section class="arena"><div class="arena-ring"></div><div class="eyebrow">運命を読み、勝ち筋を選べ。</div><div id="phase" class="phase" role="status"></div><div id="die" class="die" aria-label="今回の数字">?</div><div id="arena-message" class="arena-message"></div><button id="roll" class="primary">数字を出す <span>↗</span></button><div id="last-action" class="last-action">六つの可能性。その一つを、あなたの力に。</div></section>
-<section class="combatant player" aria-label="プレイヤー"><div class="avatar">♙</div><div class="combatant-info"><div class="name-line"><h2>あなた</h2><span>挑戦者</span></div><div class="health-label"><span>体力</span><strong id="player-hp"></strong></div><div class="health-track"><div id="player-bar"></div></div></div><span class="float" id="player-float"></span></section>
+<section class="combatant player" aria-label="プレイヤー"><div id="player-avatar" class="avatar">♙</div><div class="combatant-info"><div class="name-line"><h2 id="player-name">あなた</h2><span>挑戦者</span></div><div class="health-label"><span>体力</span><strong id="player-hp"></strong></div><div class="health-track"><div id="player-bar"></div></div></div><span class="float" id="player-float"></span></section>
 <p id="player-effects" class="effect-status"></p><section class="hand-section"><div class="section-title"><h2>あなたの固定チーム <span>5体</span></h2><small id="hand-hint">数字を出して、作戦を決めよう</small></div><div id="hand" class="hand"></div><div class="scroll-hint">← スワイプしてチームを確認 →</div></section>
 <section class="log-section"><div class="section-title"><h2>戦いの記録</h2><span class="live-dot">直近の行動</span></div><ol id="log" aria-live="polite"></ol></section>
 </main><footer>六耀の決闘 <span>運も、選択も、あなたの味方に。</span></footer></div>
 <dialog id="card-dialog"><button class="close" data-close="card-dialog" aria-label="閉じる">×</button><div id="card-detail"></div><button id="use" class="primary">このカードを使う</button><p class="dialog-note">確定するまでは、別のカードを選べます。</p></dialog>
-<dialog id="rules-dialog"><button class="close" data-close="rules-dialog" aria-label="閉じる">×</button><div class="eyebrow">六耀の決闘</div><h2>運命の数字を、<br>最善の一手に。</h2><ol class="rules"><li><b>戦闘前に異なる5体を選ぶ</b><p>通常技を使っても消費されない固定チームです。体力は側ごとに共有し、初期・最大300。先攻はあなたです。</p></li><li><b>数字を先に出す</b><p>1〜6が同じ確率で出ます。その数字の行の通常技だけが発動します。キャラクターの選び直しでは数字は変わりません。</p></li><li><b>任意で固有スキルを1つ使う</b><p>数字確定後、通常技を確定する前に、チーム全体で1ターンに1回まで。通常技とは別のキャラクターのスキルでも構いません。使わず進めることもできます。</p></li><li><b>通常技を確定すると相手の番</b><p>自分のターン開始ごとに自分の待ち時間だけ1減少。待ち時間3なら1ターン目の使用後、2ターン目は残り2、3ターン目は残り1、4ターン目に再使用可能です。</p></li></ol><p class="rule-end">相手の体力が0で勝利。スキルでも決着します。攻撃強化はそのターンの通常技のみ。結界は次に受ける防御可能なダメージ1回まで継続します。CPUにも同じルールを適用します。16巡目から回復疲労が始まり、回復量が1巡につき10％ずつ低下します（最低25％・端数切り捨て）。両側に同じ条件を適用し、通常技もスキルも対象です。再戦ですべてリセットされます。</p></dialog>
+<dialog id="rules-dialog"><button class="close" data-close="rules-dialog" aria-label="閉じる">×</button><div class="eyebrow">六耀の決闘</div><h2>運命の数字を、<br>最善の一手に。</h2><ol class="rules"><li><b>異なる5体を選び、最初の前衛を決める</b><p>HPはキャラ別です。相手の5体すべてを戦闘不能にすると勝利。交代してもHPと結界はそのキャラに残ります。</p></li><li><b>数字 → 出場キャラ → 通常技</b><p>1〜6が等確率で確定した後、生存キャラを選びます。選んだ数字の通常技を使うと、そのキャラが前衛に残って次の敵の攻撃を受けます。控えは攻撃されません。選び直しで数字は変わりません。</p></li><li><b>固有スキルは数字確定後、通常技の前に1回</b><p>チームで自分の1ターンに1回まで。スキルだけでは交代しません。攻撃強化はそのターンに使う通常技の攻撃だけに有効。回復先・結界の対象は生存している味方1体を選びます。控えも選べますが、戦闘不能は復活しません。</p></li><li><b>待ち時間は自分のターン開始で1減る</b><p>待ち時間3のスキルを1ターン目に使うと2ターン目に残り2、3ターン目に残り1、4ターン目に再使用可能。結界は対象が受ける次の防御可能なダメージ1回を半減。交代しても他キャラに移らず、消費まで継続し、重複できません。</p></li><li><b>前衛が倒れたら、後任を選ぶ</b><p>後任選択には攻撃・ターン消費はありません。スキルで敵前衛を倒した場合も後任を選んでから、同じ数字で通常技を選べます。先攻はあなた。CPUにも同じルールです。</p></li><li><b>属性有利は通常技だけ<span data-affinity-bonus>1.05</span>倍</b><p>水→火、火→自然、自然→水、聖光→呪闇、呪闇→聖光。それ以外は1倍で、不利による減衰はありません。基礎ダメージ→攻撃強化→属性→防御の順に計算し、最後に四捨五入します。固有スキル・固定ダメージ・回復には属性倍率を適用しません。副属性は表示・分類のみです。</p></li></ol><p class="rule-end">16巡目から回復疲労で回復量が1巡につき10ポイント減少（最低25％、最終回復量切り捨て）。前衛・控えに同条件です。通常技とスキルの回復量表示はこの補正を受けます。再戦で全員のHP・待ち時間・一時効果を初期化します。</p></dialog>
 <dialog id="result-dialog"><div id="result-symbol" class="result-symbol">✧</div><div class="eyebrow">決闘終了</div><h2 id="result-title"></h2><p id="result-description"></p><button id="restart" class="primary">もう一度遊ぶ ↗</button><button id="review" class="quiet">戦いの記録を見る</button></dialog>
-<script>
+<dialog id="skill-dialog"><button class="close" data-close="skill-dialog" aria-label="閉じる">×</button><div id="skill-detail"></div><button id="skill-use" class="primary">固有スキルを使う</button></dialog><dialog id="front-dialog"><h2 id="front-title"></h2><p id="front-note"></p><div id="front-options"></div></dialog><script>
 (() => {
-const RULES = { maxHp: 300, handSize: 5, normalHealScale: 1.3, fatigueStart: 16, fatigueStep: .1, minimumHealFactor: .25 };
+const RULES = { handSize: 5, normalHealScale: 1.3, fatigueStart: 16, fatigueStep: .1, minimumHealFactor: .25 };
 const hit = (name, damage = 0, heal = 0) => ({ name, damage, heal: Math.round(heal * RULES.normalHealScale) });
 const CARDS = [
   {name:'燎原の剣士', symbol:'⚔', color:'ember', type:'烈火 / 攻撃', actions:[hit('火花',8),hit('斬り払い',14),hit('紅蓮の一閃',32),hit('息を整える',0,15),hit('炎の輪',22),hit('燃え尽きる刃',38)]},
@@ -33,128 +35,195 @@ const CARDS = [
 // 固有スキルの数値・説明はこの一覧で編集できます。
 const SKILLS = [
  {name:'紅蓮の誓い',description:'このターンの通常技の攻撃だけを2倍にする。',cooldown:4,multiplier:2},
- {name:'月泉の祝福',description:'自分側の体力を35回復する。',cooldown:3,heal:35},
+ {name:'月泉の祝福',description:'生存している味方1体を選び、HPを35回復する。控えも選択可能。',cooldown:3,heal:35},
  {name:'風向きの逆転',description:'確定した数字を1回振り直す。同じ数字になることもある。',cooldown:3,reroll:true},
- {name:'琥珀の結界',description:'次に受ける攻撃ダメージを1回だけ半分にする（端数切り上げ）。重複不可。防御無視の攻撃では消えない。',cooldown:3,shield:true},
- {name:'虚空の穿孔',description:'敵の防御を無視して20ダメージ。',cooldown:4,damage:20,bypass:true},
- {name:'翠樹の活力',description:'体力を20回復。このターンの通常技に攻撃力10を加える（攻撃技のみ）。',cooldown:4,heal:20,bonus:10},
- {name:'先駆けの雷',description:'敵に12ダメージを与える。防御効果の対象になる。',cooldown:3,damage:12},
- {name:'潮のめぐり',description:'敵に12ダメージを与え、自分側の体力を16回復する。',cooldown:3,damage:12,heal:16},
+ {name:'琥珀の結界',description:'生存している味方1体に結界。対象が次に受ける防御可能なダメージ1回を半減し、最後に四捨五入。交代しても対象は変わらず、消費まで継続。重複不可。',cooldown:3,shield:true},
+ {name:'虚空の穿孔',description:'敵の前衛に防御・属性を無視して20ダメージ。',cooldown:4,damage:20,bypass:true},
+ {name:'翠樹の活力',description:'生存している味方1体のHPを20回復。このターンに使う通常技に攻撃力10を加える（攻撃技のみ）。',cooldown:4,heal:20,bonus:10},
+ {name:'先駆けの雷',description:'敵の前衛に属性を無視して12ダメージ。防御効果の対象になる。',cooldown:3,damage:12},
+ {name:'潮のめぐり',description:'敵の前衛に属性を無視して12ダメージ。生存している味方1体のHPを16回復。',cooldown:3,damage:12,heal:16},
 ];
-CARDS.forEach((card,i)=>{card.skill=SKILLS[i];});
-function roll(random = Math.random) { return Math.floor(random()*6)+1; }
-function createGame(team=[0,1,2,3,4], random=Math.random) {
- if(team.length!==RULES.handSize || new Set(team).size!==team.length || team.some(id=>!Number.isInteger(id)||!CARDS[id])) throw Error('異なる5体を選択してください');
- const pool=CARDS.map((_,i)=>i),cpu=[];
- while(cpu.length<RULES.handSize)cpu.push(pool.splice(Math.floor(random()*pool.length),1)[0]);
- return {hp:{player:RULES.maxHp,cpu:RULES.maxHp},hands:{player:[...team],cpu},cooldowns:{player:Array(RULES.handSize).fill(0),cpu:Array(RULES.handSize).fill(0)},used:{player:false,cpu:false},effects:{player:{shield:false,multiplier:1,bonus:0},cpu:{shield:false,multiplier:1,bonus:0}},phase:'roll',number:null,turn:1,winner:null};
-}
+// HP・属性・副属性は同じ順の一覧で管理。副属性は表示分類のみ。
+const PROFILES = [
+ {maxHp:120,element:'火',tags:['騎士','剣士']},
+ {maxHp:100,element:'聖光',tags:['巫女','治癒師']},
+ {maxHp:95,element:'自然',tags:['射手','風使い']},
+ {maxHp:160,element:'自然',tags:['守護者','剛力']},
+ {maxHp:100,element:'呪闇',tags:['魔術師']},
+ {maxHp:110,element:'自然',tags:['薬師','治癒師']},
+ {maxHp:105,element:'聖光',tags:['クリーチャー','雷使い']},
+ {maxHp:130,element:'水',tags:['旅人','剣士']},
+];
+const AFFINITY = { bonus:1.05, advantages:{水:['火'],火:['自然'],自然:['水'],聖光:['呪闇'],呪闇:['聖光']} };
+CARDS.forEach((card,i)=>Object.assign(card,PROFILES[i],{skill:SKILLS[i]}));
 const opponent=actor=>actor==='player'?'cpu':'player';
-function canAct(g,actor,index){return ['player','cpu'].includes(actor)&&!g.winner&&g.phase===(actor==='player'?'choose':'cpuChoose')&&Number.isInteger(index)&&index>=0&&index<g.hands[actor].length;}
+function roll(random=Math.random){return Math.floor(random()*6)+1;}
+function living(g,actor){return g.members[actor].map((m,i)=>m.hp>0?i:-1).filter(i=>i>=0);}
+function cardAt(g,actor,i){return CARDS[g.hands[actor][i]];}
+function valid(g,actor,i){return ['player','cpu'].includes(actor)&&Number.isInteger(i)&&!!g.members[actor][i]&&g.members[actor][i].hp>0;}
+function createGame(team=[0,1,2,3,4],random=Math.random){
+ if(team.length!==RULES.handSize||new Set(team).size!==team.length||team.some(id=>!Number.isInteger(id)||!CARDS[id]))throw Error('異なる5体を選択してください');
+ const pool=CARDS.map((_,i)=>i),cpu=[];while(cpu.length<RULES.handSize)cpu.push(pool.splice(Math.floor(random()*pool.length),1)[0]);
+ const hands={player:[...team],cpu};
+ const g={hands,members:{},front:{player:null,cpu:null},cooldowns:{},used:{player:false,cpu:false},effects:{player:{multiplier:1,bonus:0},cpu:{multiplier:1,bonus:0}},phase:'opening',number:null,turn:1,winner:null,replacing:null,resumePhase:null};
+ for(const actor of ['player','cpu']){g.members[actor]=hands[actor].map(id=>({hp:CARDS[id].maxHp,shield:false}));g.cooldowns[actor]=hands[actor].map(()=>0);}
+ // CPUの初期前衛は自分のHPだけで決定。プレイヤーの未確定選択には依存しない。
+ g.front.cpu=replacementChoice(g,'cpu');return g;
+}
+function replacementChoice(g,actor){return living(g,actor).sort((a,b)=>g.members[actor][b].hp-g.members[actor][a].hp)[0]??null;}
+function selectFront(g,actor,index){
+ if(!valid(g,actor,index)||g.winner)return false;
+ if(g.phase==='opening'&&actor==='player'){g.front.player=index;g.phase='roll';return true;}
+ if(g.phase!=='replacement'||g.replacing!==actor)return false;
+ g.front[actor]=index;g.phase=g.resumePhase;g.resumePhase=null;g.replacing=null;return true;
+}
 function startTurn(g,actor){
  if(g.winner||g.phase!==(actor==='player'?'playerPending':'cpuPending'))return false;
- g.cooldowns[actor]=g.cooldowns[actor].map(n=>Math.max(0,n-1));g.used[actor]=false;
- g.effects[actor].multiplier=1;g.effects[actor].bonus=0;
+ g.cooldowns[actor]=g.cooldowns[actor].map(n=>Math.max(0,n-1));g.used[actor]=false;g.effects[actor]={multiplier:1,bonus:0};
  g.number=null;g.phase=actor==='player'?'roll':'cpuRolling';if(actor==='player')g.turn++;return true;
 }
-function setRoll(g,number){
- if(g.winner||!['rolling','cpuRolling'].includes(g.phase)||!Number.isInteger(number)||number<1||number>6)return false;
- g.number=number;g.phase=g.phase==='rolling'?'choose':'cpuChoose';return true;
-}
-function deal(g,target,amount,bypass=false){
- if(amount>0&&g.effects[target].shield&&!bypass){amount=Math.ceil(amount/2);g.effects[target].shield=false;}
- const actual=Math.min(g.hp[target],amount);g.hp[target]-=actual;return actual;
-}
+function setRoll(g,n){if(g.winner||!['rolling','cpuRolling'].includes(g.phase)||!Number.isInteger(n)||n<1||n>6)return false;g.number=n;g.phase=g.phase==='rolling'?'choose':'cpuChoose';return true;}
 function healingFactor(g){return Math.round(Math.max(RULES.minimumHealFactor,1-Math.max(0,g.turn-RULES.fatigueStart+1)*RULES.fatigueStep)*10000)/10000;}
-function recover(g,actor,amount){amount=Math.floor(amount*healingFactor(g));const actual=Math.min(RULES.maxHp-g.hp[actor],amount);g.hp[actor]+=actual;return actual;}
-function checkWinner(g,actor){if(g.hp[opponent(actor)]===0){g.winner=actor;g.phase='over';}}
-function skillReason(g,actor,index){
- if(!['player','cpu'].includes(actor)||!Number.isInteger(index)||!CARDS[g.hands[actor][index]])return '対象がありません';
- if(g.winner)return '戦闘終了';
- if(g.phase!==(actor==='player'?'choose':'cpuChoose'))return g.phase==='roll'||g.phase==='rolling'?'数字を確定してください':'相手のターン・通常技確定後は使用不可';
- if(g.used[actor])return 'このターンは使用済み';
- if(g.cooldowns[actor][index]>0)return `あと${g.cooldowns[actor][index]}ターン`;
- if(CARDS[g.hands[actor][index]].skill.shield&&g.effects[actor].shield)return '結界が継続中（重複不可）';
- return '';
+function attributeMultiplier(from,to){return Array.isArray(AFFINITY.advantages[from])&&AFFINITY.advantages[from].includes(to)?AFFINITY.bonus:1;}
+function previewNormal(g,actor,index){
+ if(!valid(g,actor,index)||!Number.isInteger(g.number))return {damage:0,multiplier:1};
+ const target=opponent(actor),ti=g.front[target];if(!valid(g,target,ti))return {damage:0,multiplier:1};
+ const card=cardAt(g,actor,index),a=card.actions[g.number-1],e=g.effects[actor];
+ const multiplier=a.fixed?1:attributeMultiplier(card.element,cardAt(g,target,ti).element);
+ const boosted=a.damage>0?a.damage*e.multiplier+e.bonus:0;
+ return {damage:Math.round(boosted*multiplier*(g.members[target][ti].shield?.5:1)),multiplier};
 }
-function useSkill(g,actor,index,random=Math.random){
+function damage(g,actor,index,amount,{bypass=false,normal=false}={}){
+ const m=g.members[actor][index];if(!m||m.hp<=0)return 0;
+ if(!normal)amount=Math.round(amount*(!bypass&&m.shield?.5:1));
+ if(amount>0&&!bypass)m.shield=false;
+ const actual=Math.min(m.hp,amount);m.hp-=actual;if(!m.hp)m.shield=false;return actual;
+}
+function recover(g,actor,i,amount){if(!valid(g,actor,i))return 0;const m=g.members[actor][i],actual=Math.min(cardAt(g,actor,i).maxHp-m.hp,Math.floor(amount*healingFactor(g)));m.hp+=actual;return actual;}
+function resolve(g,actor,nextPhase){
+ const enemy=opponent(actor);g.phase=nextPhase;
+ if(!living(g,enemy).length){g.winner=actor;g.phase='over';return;}
+ if(!valid(g,enemy,g.front[enemy])){g.front[enemy]=null;g.replacing=enemy;g.resumePhase=nextPhase;g.phase='replacement';}
+}
+function canAct(g,actor,i){return valid(g,actor,i)&&!g.winner&&g.phase===(actor==='player'?'choose':'cpuChoose');}
+function skillReason(g,actor,i){
+ if(!valid(g,actor,i))return '戦闘不能：使用不可';if(g.winner)return '戦闘終了';
+ if(g.phase!==(actor==='player'?'choose':'cpuChoose'))return ['roll','rolling'].includes(g.phase)?'数字を確定してください':'今は使用できません';
+ if(g.used[actor])return 'このターンは使用済み';if(cardAt(g,actor,i).skill.shield&&living(g,actor).every(n=>g.members[actor][n].shield))return '全員に結界が継続中（重複不可）';if(g.cooldowns[actor][i])return `あと${g.cooldowns[actor][i]}ターン`;return '';
+}
+function useSkill(g,actor,index,targetIndex=index,random=Math.random){
  if(skillReason(g,actor,index))return null;
- const card=CARDS[g.hands[actor][index]],s=card.skill,oldNumber=g.number;
- // 制限を効果より先に確定し、連打・再入を防ぐ。
+ const card=cardAt(g,actor,index),s=card.skill;
+ if((s.heal||s.shield)&&!valid(g,actor,targetIndex))return null;
+ if(s.shield&&g.members[actor][targetIndex].shield)return null;
+ const enemy=opponent(actor),enemyIndex=g.front[enemy];if(!valid(g,enemy,enemyIndex))return null;
  g.used[actor]=true;g.cooldowns[actor][index]=s.cooldown;
- const damage=deal(g,opponent(actor),s.damage||0,s.bypass),heal=recover(g,actor,s.heal||0);
- if(s.multiplier)g.effects[actor].multiplier=s.multiplier;
- if(s.bonus)g.effects[actor].bonus=s.bonus;
- if(s.shield)g.effects[actor].shield=true;
- if(s.reroll)g.number=roll(random);
- checkWinner(g,actor);
- return {actor,card,action:s,kind:'skill',number:g.number,oldNumber,damage,heal,note:s.reroll?`数字を${oldNumber}から${g.number}へ振り直し`:s.description};
+ const oldNumber=g.number,dealt=damage(g,enemy,enemyIndex,s.damage||0,{bypass:s.bypass}),heal=s.heal?recover(g,actor,targetIndex,s.heal):0;
+ if(s.shield)g.members[actor][targetIndex].shield=true;
+ if(s.multiplier)g.effects[actor].multiplier=s.multiplier;if(s.bonus)g.effects[actor].bonus=s.bonus;if(s.reroll)g.number=roll(random);
+ resolve(g,actor,actor==='player'?'choose':'cpuChoose');
+ return {actor,card,index,healIndex:targetIndex,kind:'skill',action:s,number:g.number,oldNumber,damage:dealt,heal,target:cardAt(g,enemy,enemyIndex).name,healTarget:s.heal||s.shield?cardAt(g,actor,targetIndex).name:null,knockedOut:g.members[enemy][enemyIndex].hp===0,note:s.reroll?`数字を${oldNumber}から${g.number}へ振り直し`:s.shield?`${cardAt(g,actor,targetIndex).name}に結界（消費まで継続）`:s.description};
 }
-function useCard(g,actor,index){
+function useCard(g,actor,index,healIndex=index){
  if(!canAct(g,actor,index))return null;
- const card=CARDS[g.hands[actor][index]],action=card.actions[g.number-1],e=g.effects[actor];
- const raw=action.damage>0?action.damage*e.multiplier+e.bonus:0;
- const damage=deal(g,opponent(actor),raw),heal=recover(g,actor,action.heal);
- e.multiplier=1;e.bonus=0;
- g.phase=actor==='player'?'cpuPending':'playerPending';checkWinner(g,actor);
- return {actor,card,action,kind:'normal',number:g.number,damage,heal,note:raw!==action.damage?`攻撃強化：${action.damage} → ${raw}`:''};
+ const card=cardAt(g,actor,index),a=card.actions[g.number-1];if(a.heal&&!valid(g,actor,healIndex))return null;
+ const enemy=opponent(actor),enemyIndex=g.front[enemy];if(!valid(g,enemy,enemyIndex))return null;
+ const preview=previewNormal(g,actor,index);g.front[actor]=index;
+ const dealt=damage(g,enemy,enemyIndex,preview.damage,{normal:true}),heal=a.heal?recover(g,actor,healIndex,a.heal):0;
+ g.effects[actor]={multiplier:1,bonus:0};resolve(g,actor,actor==='player'?'cpuPending':'playerPending');
+ return {actor,card,index,healIndex,kind:'normal',action:a,number:g.number,damage:dealt,heal,target:cardAt(g,enemy,enemyIndex).name,healTarget:a.heal?cardAt(g,actor,healIndex).name:null,knockedOut:g.members[enemy][enemyIndex].hp===0,multiplier:preview.multiplier,note:preview.multiplier>1&&a.damage?`属性有利 ×${preview.multiplier}`:''};
 }
-function normalScore(g,id){const a=CARDS[id].actions[g.number-1],e=g.effects.cpu;let d=a.damage>0?a.damage*e.multiplier+e.bonus:0;if(g.effects.player.shield)d=Math.ceil(d/2);return (d>=g.hp.player?10000:0)+Math.min(d,g.hp.player)+Math.min(RULES.maxHp-g.hp.cpu,Math.floor(a.heal*healingFactor(g)))*(g.hp.cpu<RULES.maxHp*.25?1.1:.6);}
-function cpuChoice(g){return g.hands.cpu.map((id,index)=>({index,score:normalScore(g,id)})).sort((a,b)=>b.score-a.score)[0].index;}
-function cpuSkillChoice(g){
- let best=-1,bestScore=5;const baseline=normalScore(g,g.hands.cpu[cpuChoice(g)]);
- for(let i=0;i<g.hands.cpu.length;i++){
-  if(skillReason(g,'cpu',i))continue;
-  const copy=JSON.parse(JSON.stringify(g)),s=CARDS[g.hands.cpu[i]].skill;
-  useSkill(copy,'cpu',i,()=>.5);
-  let gain;
-  if(s.reroll){gain=0;for(let n=1;n<=6;n++){copy.number=n;gain+=normalScore(copy,copy.hands.cpu[cpuChoice(copy)])/6;}gain-=baseline;}
-  else {gain=(g.hp.player-copy.hp.player)+Math.min(RULES.maxHp-g.hp.cpu,Math.floor((s.heal||0)*healingFactor(g)))*(g.hp.cpu<RULES.maxHp*.25?1.1:.6)+normalScore(copy,copy.hands.cpu[cpuChoice(copy)])-baseline;if(s.shield)gain+=g.hp.cpu<RULES.maxHp*.4?17:9;if(copy.winner)gain+=20000;}
-  if(gain>bestScore){bestScore=gain;best=i;}
- }
- return best;
+function healChoice(g,actor){return living(g,actor).sort((a,b)=>(cardAt(g,actor,b).maxHp-g.members[actor][b].hp)-(cardAt(g,actor,a).maxHp-g.members[actor][a].hp))[0];}
+function actionChoice(g,actor){
+ const healIndex=healChoice(g,actor),missing=cardAt(g,actor,healIndex).maxHp-g.members[actor][healIndex].hp,enemy=opponent(actor),target=g.members[enemy][g.front[enemy]];
+ let choice=null;
+ for(const index of living(g,actor)){
+  const p=previewNormal(g,actor,index),a=cardAt(g,actor,index).actions[g.number-1];
+  const score=(target&&p.damage>=target.hp?1000:0)+Math.min(target?.hp??0,p.damage)+Math.min(missing,Math.floor(a.heal*healingFactor(g)))*.6+g.members[actor][index].hp/cardAt(g,actor,index).maxHp*2;
+  if(!choice||score>choice.score)choice={index,healIndex,score};
+ }return choice;
 }
+function cpuChoice(g){return actionChoice(g,'cpu').index;}
+function skillChoice(g,actor){
+ let best=null,bestScore=5;const baseline=actionChoice(g,actor).score,enemy=opponent(actor),target=g.front[enemy];
+ for(const index of living(g,actor)){
+  if(skillReason(g,actor,index))continue;
+  const s=cardAt(g,actor,index).skill,targetIndex=s.shield?actionChoice(g,actor).index:healChoice(g,actor);
+  if(s.shield&&g.members[actor][targetIndex].shield)continue;
+  const copy=structuredClone(g),result=useSkill(copy,actor,index,targetIndex,()=>.5);if(!result)continue;
+  let gain=result.damage+result.heal*.8;
+  if(result.knockedOut)gain+=1000;
+  if(s.shield)gain+=g.members[actor][targetIndex].hp<50?16:10;
+  if(s.reroll){let sum=0;for(let n=1;n<=6;n++){copy.number=n;sum+=actionChoice(copy,actor).score/6;}gain+=sum-baseline;}
+  else if(copy.phase!=='replacement'&&!copy.winner)gain+=actionChoice(copy,actor).score-baseline;
+  if(gain>bestScore){bestScore=gain;best={index,targetIndex};}
+ }return best;
+}
+function cpuSkillChoice(g){return skillChoice(g,'cpu');}
 
-const $=id=>document.getElementById(id);
-let game=createGame(),selected=null,logs=[],generation=0,team=[0,1,2,3,4];
-game.phase="setup";
-const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-function actions(card,number){return card.actions.map((a,i)=>`<div class="action-row ${number===i+1?'active':''}"><span class="number">${i+1}</span><span>${a.name}</span><b>${a.damage?`${a.damage} 攻撃`:''}${a.damage&&a.heal?' / ':''}${a.heal?`${Math.floor(a.heal*healingFactor(game))} 回復`:''}${!a.damage&&!a.heal?'—':''}</b></div>`).join('');}
+const $=id=>document.getElementById(id),sleep=ms=>new Promise(r=>setTimeout(r,ms));
+let team=[0,1,2,3,4],game=createGame(team),selected=null,logs=[],generation=0,advancing=false,inputLockedUntil=0;
+game.phase='setup';
+const side=actor=>actor==='player'?'あなた':'番人';
+function memberInfo(actor,index){const c=cardAt(game,actor,index),m=game.members[actor][index];return `<div class="member-state">${m.hp<=0?'戦闘不能':game.front[actor]===index?'前衛':'控え'}${m.shield?' ・ 結界':''}</div><div class="attribute">${c.element}属性 · ${c.tags.join(' / ')}</div><div class="member-hp" data-hp="${actor}-${index}">${m.hp} / ${c.maxHp}</div><div class="health-track"><div style="width:${m.hp/c.maxHp*100}%"></div></div>`;}
+function actions(c,number,actor=null,index=null){return c.actions.map((a,i)=>{let bonus='';if(actor&&i+1===number&&a.damage){const p=previewNormal(game,actor,index);bonus=`<small class="damage-preview">実効威力 ${p.damage}${p.multiplier>1?` · 属性有利 ×${p.multiplier}`:''}</small>`;}return `<div class="action-row ${number===i+1?'active':''}"><span class="number">${i+1}</span><span>${a.name}${bonus}</span><b>${a.damage?`${a.damage} 攻撃`:''}${a.damage&&a.heal?' / ':''}${a.heal?`${Math.floor(a.heal*healingFactor(game))} 回復`:''}${!a.damage&&!a.heal?'—':''}</b></div>`;}).join('');}
+function skillPanel(i){const c=cardAt(game,'player',i),reason=skillReason(game,'player',i);return `<div class="skill-panel"><b>固有スキル · ${c.skill.name}</b><p>${c.skill.description}${c.skill.heal&&healingFactor(game)<1?`<br>現在の最大回復量：${Math.floor(c.skill.heal*healingFactor(game))}`:''}</p><small>待ち時間 ${c.skill.cooldown}ターン ／ 残り ${game.cooldowns.player[i]}ターン</small><button class="skill-button" data-skill="${i}" ${reason?'disabled':''}>${reason||'使用可能：スキルを使う'}</button></div>`;}
 function render(){
- document.body.classList.toggle('preparing',game.phase==='setup');
- for(const actor of ['player','cpu']){$(`${actor}-hp`).innerHTML=`${game.hp[actor]} <span>/ ${RULES.maxHp}</span>`;$(`${actor}-bar`).style.width=`${game.hp[actor]/RULES.maxHp*100}%`;}
- const phaseText={setup:'戦闘前：5体を選択',roll:'① 数字を出す',rolling:'運命の数字を決めています',choose:'② 任意でスキル → ③ 通常技を選ぶ',cpuPending:'③ CPUのターン',cpuRolling:'③ CPUが数字を出しています',cpuChoose:'③ CPUがカードを選んでいます',playerPending:'あなたのターンへ',over:'決闘終了'};
- $('phase').textContent=phaseText[game.phase];$('turn').textContent=`第${game.turn}巡`;
- $('die').textContent=game.number??'?';$('die').classList.toggle('rolling',game.phase==='rolling'||game.phase==='cpuRolling');
- $('roll').disabled=game.phase!=='roll';$('roll').textContent=game.phase==='over'?'決闘終了':game.phase==='choose'?'チームから通常技を選ぼう':game.phase.startsWith('cpu')?'相手が思考中…':'数字を出す ↗';
- $('arena-message').textContent=game.phase==='choose'?`「${game.number}」の行動が発動します`:game.phase==='roll'?'数字を見てから、カードを選択':game.phase==='over'?'選択が、運命を決めた。':'相手の一手を見届けよう';
- $('player-effects').textContent=effectStatus('player');$('cpu-effects').textContent=effectStatus('cpu');
- $('hand-hint').textContent=game.phase==='choose'?`「${game.number}」の行を比べて選ぼう`:'キャラクターをタップして詳細を確認';
- $('team-status').textContent=`${team.length} / ${RULES.handSize}体 選択中`;
- $('team-start').disabled=team.length!==RULES.handSize;
- $('team-setup').hidden=game.phase!=='setup';
- $('hand').innerHTML=game.hands.player.map((id,i)=>{const c=CARDS[id];return `<article class="card ${c.color}"><button class="character-select" data-index="${i}" ${!['roll','choose'].includes(game.phase)?'disabled':''}><div class="card-top"><span>${c.type}</span><span>✧</span></div><div class="card-art">${c.symbol}<span class="art-orbit"></span></div><h3>${c.name}</h3><div class="card-actions">${actions(c,game.phase==='choose'?game.number:null)}</div><div class="card-bottom">${game.phase==='choose'?'タップして通常技を確認':'タップして詳細を見る'}</div></button>${skillPanel(i)}</article>`;}).join('');
- $('log').innerHTML=logs.length?logs.slice(0,12).map(l=>`<li><span>${l.actor==='player'?'あなた':'番人'}<small>出目 ${l.number}</small></span><div><b>${l.kind==='skill'?'【固有スキル】':'【通常技】'}${l.card.name} · ${l.action.name}</b><p>${effect(l)}${l.note?` ／ ${l.note}`:''}</p></div></li>`).join(''):'<li class="empty-log">ここに、あなたと番人の戦いが刻まれます。</li>';
+ for(const el of document.querySelectorAll('[data-affinity-bonus]'))el.textContent=AFFINITY.bonus;
+ document.body.classList.toggle('preparing',game.phase==='setup');$('team-setup').hidden=game.phase!=='setup';$('team-status').textContent=`${team.length} / ${RULES.handSize}体 選択中`;$('team-start').disabled=team.length!==RULES.handSize;
+ for(const actor of ['player','cpu']){
+  const index=game.front[actor],m=game.members[actor][index],c=m?cardAt(game,actor,index):null;
+  $(`${actor}-name`).textContent=c?`${c.name} · 前衛`:'前衛を選択中';$(`${actor}-avatar`).textContent=c?.symbol??'✧';
+  $(`${actor}-hp`).textContent=m?`${m.hp} / ${c.maxHp}`:'—';$(`${actor}-bar`).style.width=m?`${m.hp/c.maxHp*100}%`:'0%';
+  const e=game.effects[actor];$(`${actor}-effects`).textContent=[`生存 ${living(game,actor).length} / 5体`,m?.shield?'前衛に結界':'',e.multiplier>1?'このターンの通常技の攻撃2倍':'',e.bonus?'このターンの通常技の攻撃＋10':'',healingFactor(game)<1?`回復疲労：${Math.round(healingFactor(game)*100)}％`:''].filter(Boolean).join(' ／ ');
+ }
+ const phases={setup:'戦闘前：5体を選択',opening:'最初の前衛を選択',roll:'① 数字を出す',rolling:'運命の数字を決めています',choose:'② 任意でスキル → ③ 出場キャラと通常技を選ぶ',cpuPending:'番人のターンへ',cpuRolling:'番人が数字を出しています',cpuChoose:'番人が出場キャラを選んでいます',playerPending:'あなたのターンへ',replacement:`${game.replacing==='player'?'あなた':'番人'}の後任を選択`,over:'決闘終了'};
+ $('phase').textContent=phases[game.phase];$('turn').textContent=`第${game.turn}巡`;$('die').textContent=game.number??'?';$('die').classList.toggle('rolling',['rolling','cpuRolling'].includes(game.phase));
+ $('roll').disabled=game.phase!=='roll';$('roll').textContent=game.phase==='over'?'決闘終了':game.phase==='choose'?'生存キャラから通常技を選ぼう':game.phase==='replacement'?'後任を選んでいます':'数字を出す ↗';
+ $('arena-message').textContent=game.phase==='choose'?`「${game.number}」の通常技を使い、そのキャラが前衛に残ります`:'相手の前衛だけが攻撃対象になります';
+ $('hand-hint').textContent=game.phase==='choose'?`「${game.number}」の行を比較。回復先は確定画面で選択`:'各キャラのHP・前衛・控えを確認';
+ $('enemy-team').innerHTML=game.hands.cpu.map((id,i)=>{const c=CARDS[id],m=game.members.cpu[i];return `<article class="enemy-member ${game.front.cpu===i?'is-front':''} ${!m.hp?'is-ko':''}"><strong>${c.symbol} ${c.name}</strong>${memberInfo('cpu',i)}<small>スキル：${c.skill.name} ／ ${!m.hp?'戦闘不能':game.cooldowns.cpu[i]?`あと${game.cooldowns.cpu[i]}ターン`:'待ち時間なし'}</small></article>`;}).join('');
+ $('hand').innerHTML=game.hands.player.map((id,i)=>{const c=CARDS[id],m=game.members.player[i],enabled=m.hp>0&&['roll','choose'].includes(game.phase);return `<article class="card ${c.color} ${game.front.player===i?'is-front':''} ${!m.hp?'is-ko':''}"><button class="character-select" data-index="${i}" ${enabled?'':'disabled'}><div class="card-top"><span>${c.type}</span><span>✧</span></div><div class="card-art">${c.symbol}<span class="art-orbit"></span></div><h3>${c.name}</h3>${memberInfo('player',i)}<div class="card-actions">${actions(c,game.phase==='choose'?game.number:null,'player',i)}</div><div class="card-bottom">${!m.hp?'戦闘不能：出場・スキル不可':'タップして出場と通常技を確認'}</div></button>${skillPanel(i)}</article>`;}).join('');
+ $('log').innerHTML=logs.length?logs.slice(0,40).map(l=>`<li><span>${side(l.actor)}<small>${l.number?`出目 ${l.number}`:'交代'}</small></span><div><b>${l.message||`${l.kind==='skill'?'【固有スキル】':'【通常技】'}${l.card.name} · ${l.action.name}`}</b><p>${l.message?'攻撃・ターン消費なし':effectText(l)}</p></div></li>`).join(''):'<li class="empty-log">ここに、あなたと番人の戦いが刻まれます。</li>';
 }
-function effect(a){return [a.damage?`${a.actor==='player'?'番人':'あなた'}に${a.damage}ダメージ`:'',a.heal?`体力を${a.heal}回復`:''].filter(Boolean).join('、')||'何も起こらなかった';}
-function detail(index){selected=index;const c=CARDS[game.hands.player[index]];const ready=game.phase==='choose';$('card-detail').innerHTML=`<div class="detail-symbol ${c.color}">${c.symbol}</div><div class="eyebrow">${c.type}</div><h2>${c.name}</h2><p>${ready?`今回の数字は「${game.number}」。強調された行動が発動します。`:'数字を出してから、使用するカードを選びます。'}</p><div class="detail-actions">${actions(c,ready?game.number:null)}</div><div class="skill-detail"><b>固有スキル：${c.skill.name}</b><p>${c.skill.description}</p><p>待ち時間${c.skill.cooldown}ターン ／ ${skillReason(game,'player',index)||'使用可能'}</p></div>`;$('use').disabled=!ready;$('use').textContent=ready?'このキャラクターで通常技を使う':'まず数字を出してください';$('card-dialog').showModal();}
-function animate(a){for(const [actor,value] of [[a.actor==='player'?'cpu':'player',a.damage?`−${a.damage}`:''],[a.actor,a.heal?`＋${a.heal}`:'']]){if(!value)continue;const el=$(`${actor}-float`);el.textContent=value;el.className=`float ${value.startsWith('＋')?'healing':'damage'}`;void el.offsetWidth;el.classList.add('animate');} }
-function apply(actor,index){const a=useCard(game,actor,index);if(!a)return false;logs.unshift(a);$('last-action').textContent=`${a.card.name}「${a.action.name}」 — ${effect(a)}`;render();animate(a);return true;}
-async function finish(token){if(game.winner){await sleep(650);if(token!==generation)return;$('result-title').textContent=game.winner==='player'?'あなたの勝利':'番人の勝利';$('result-description').textContent=game.winner==='player'?'運命を読み切った、見事な決闘でした。':'次の数字には、新しい勝ち筋が待っています。';$('result-dialog').showModal();}}
+function effectText(a){return [a.damage?`${a.target}に${a.damage}ダメージ`:'',a.heal?`${a.healTarget}のHPを${a.heal}回復`:'',a.knockedOut?`${a.target}が戦闘不能`:'',a.note||''].filter(Boolean).join(' ／ ')||'何も起こらなかった';}
+function record(a){if(!a)return false;logs.unshift(a);$('last-action').textContent=`${a.card.name}「${a.action.name}」 — ${effectText(a)}`;render();animate(a);return true;}
+function animate(a){if(a.damage){const el=$(`${a.actor==='player'?'cpu':'player'}-float`);el.textContent=`−${a.damage}`;el.className='float damage';void el.offsetWidth;el.classList.add('animate');}if(a.heal){const el=document.querySelector(`[data-hp="${a.actor}-${a.healIndex}"]`);if(el){el.classList.remove('heal-pulse');void el.offsetWidth;el.classList.add('heal-pulse');}}}
+function targetOptions(defaultIndex,shield=false){return living(game,'player').map(i=>{const m=game.members.player[i],c=cardAt(game,'player',i);return `<option value="${i}" ${i===defaultIndex?'selected':''} ${shield&&m.shield?'disabled':''}>${c.name}（${m.hp}/${c.maxHp}・${game.front.player===i?'前衛':'控え'}${m.shield?'・結界あり':''}）</option>`;}).join('');}
+function detail(index){
+ if(!game.members.player[index]?.hp)return;selected=index;const c=cardAt(game,'player',index),ready=game.phase==='choose',a=ready?c.actions[game.number-1]:null;
+ $('card-detail').innerHTML=`<div class="detail-symbol ${c.color}">${c.symbol}</div><h2>${c.name}</h2>${memberInfo('player',index)}<p>${ready?`通常技を確定すると、このキャラが前衛に残り、次の敵の攻撃を受けます。攻撃対象：${cardAt(game,'cpu',game.front.cpu).name}`:'数字を先に確定してから出場キャラを選びます。'}</p><div class="detail-actions">${actions(c,ready?game.number:null,'player',index)}</div>${a?.heal?`<label class="target-label">回復対象（生存している味方1体）<select id="normal-target">${targetOptions(index)}</select></label>`:''}<div class="skill-detail"><b>固有スキル：${c.skill.name}</b><p>${c.skill.description}</p></div>`;
+ $('use').disabled=!ready;$('use').textContent=ready?'このキャラで出場し、通常技を使う':'まず数字を出してください';$('card-dialog').showModal();
+}
+function openSkill(index){if(skillReason(game,'player',index))return;selected=index;const c=cardAt(game,'player',index),s=c.skill;
+ let defaultIndex=s.shield?living(game,'player').find(i=>!game.members.player[i].shield):healChoice(game,'player');
+ $('skill-detail').innerHTML=`<div class="eyebrow">固有スキル ／ ${c.name}</div><h2>${s.name}</h2><p>${s.description}</p><p>スキルだけでは前衛は交代しません。通常技の権利は残ります。</p>${s.heal||s.shield?`<label class="target-label">${s.shield?'結界を付ける対象':'回復対象'}（生存している味方1体）<select id="skill-target">${targetOptions(defaultIndex,s.shield)}</select></label>`:''}${s.heal&&healingFactor(game)<1?`<p>回復疲労適用後：最大${Math.floor(s.heal*healingFactor(game))}回復</p>`:''}${s.damage?`<p>攻撃対象：${cardAt(game,'cpu',game.front.cpu).name}（敵の前衛）</p>`:''}`;
+ $('skill-use').disabled=s.shield&&defaultIndex===undefined;$('skill-dialog').showModal();
+}
+function frontDialog(){const opening=game.phase==='opening';$('front-title').textContent=opening?'最初の前衛を選ぶ':'戦闘不能になりました。後任を選ぶ';$('front-note').textContent='この選択では攻撃もターン消費も発生しません。';$('front-options').innerHTML=living(game,'player').map(i=>`<button class="front-option" data-front="${i}"><b>${cardAt(game,'player',i).symbol} ${cardAt(game,'player',i).name}</b>${memberInfo('player',i)}</button>`).join('');if(!$('front-dialog').open)$('front-dialog').showModal();}
+async function advance(){
+ if(advancing)return;advancing=true;const token=generation;
+ try{while(token===generation){render();
+  if(game.phase==='opening'||game.phase==='replacement'&&game.replacing==='player'){frontDialog();return;}
+  if(game.phase==='replacement'){const actor=game.replacing,index=replacementChoice(game,actor);selectFront(game,actor,index);logs.unshift({actor,number:game.number,message:`${cardAt(game,actor,index).name}が後任の前衛に出場`});continue;}
+  if(game.phase==='over'){await sleep(550);if(token!==generation)return;$('result-title').textContent=game.winner==='player'?'あなたの勝利':'番人の勝利';$('result-description').textContent='相手チームの5体すべてが戦闘不能になりました。';if(!$('result-dialog').open)$('result-dialog').showModal();return;}
+  if(game.phase==='cpuPending'){await sleep(700);if(token!==generation)return;startTurn(game,'cpu');continue;}
+  if(game.phase==='cpuRolling'){await sleep(600);if(token!==generation)return;setRoll(game,roll());continue;}
+  if(game.phase==='cpuChoose'){await sleep(750);if(token!==generation)return;const s=cpuSkillChoice(game);if(s){record(useSkill(game,'cpu',s.index,s.targetIndex));}else{const a=actionChoice(game,'cpu');record(useCard(game,'cpu',a.index,a.healIndex));}continue;}
+  if(game.phase==='playerPending'){await sleep(700);if(token!==generation)return;startTurn(game,'player');continue;}
+  return;
+ }}finally{advancing=false;}
+}
 $('roll').onclick=async()=>{if(game.phase!=='roll')return;const token=generation;game.phase='rolling';render();await sleep(650);if(token!==generation)return;setRoll(game,roll());render();};
-function effectStatus(actor){const e=game.effects[actor];return [healingFactor(game)<1?`回復疲労：回復量${Math.round(healingFactor(game)*100)}％`:'',e.shield?'結界：次のダメージを半減':'',e.multiplier>1?'通常技の攻撃2倍':'',e.bonus?'通常技の攻撃＋10':''].filter(Boolean).join(' ／ ');}
-function skillPanel(i){const c=CARDS[game.hands.player[i]],reason=skillReason(game,'player',i);return `<div class="skill-panel"><b>固有スキル · ${c.skill.name}</b><p>${c.skill.description}${c.skill.heal&&healingFactor(game)<1?`<br>回復疲労適用後：${Math.floor(c.skill.heal*healingFactor(game))}回復`:""}</p><small>待ち時間 ${c.skill.cooldown}ターン ／ 残り ${game.cooldowns.player[i]}ターン</small><button class="skill-button" data-skill="${i}" ${reason?'disabled':''}>${reason||'使用可能：スキルを使う'}</button></div>`;}
-function record(a){logs.unshift(a);$('last-action').textContent=`${a.card.name}「${a.action.name}」 — ${effect(a)}${a.note?' ／ '+a.note:''}`;render();animate(a);}
-$('hand').onclick=e=>{const skill=e.target.closest('[data-skill]');if(skill){const a=useSkill(game,'player',Number(skill.dataset.skill));if(a){record(a);if(game.winner)finish(generation);}return;}const card=e.target.closest('[data-index]');if(card&&['roll','choose'].includes(game.phase))detail(Number(card.dataset.index));};
-$('use').onclick=async()=>{if(game.phase!=='choose'||selected===null)return;const index=selected;selected=null;$('card-dialog').close();const token=generation;if(!apply('player',index))return;if(game.winner){finish(token);return;}
- await sleep(900);if(token!==generation)return;startTurn(game,'cpu');render();await sleep(650);if(token!==generation)return;setRoll(game,roll());render();await sleep(700);if(token!==generation)return;
- const skillIndex=cpuSkillChoice(game);if(skillIndex>=0){const a=useSkill(game,'cpu',skillIndex);if(a)record(a);if(game.winner){finish(token);return;}await sleep(850);if(token!==generation)return;}
- apply('cpu',cpuChoice(game));if(game.winner){finish(token);return;}await sleep(1000);if(token!==generation)return;startTurn(game,'player');render();};
-$('rules-button').onclick=()=>$('rules-dialog').showModal();
-for(const button of document.querySelectorAll('[data-close]'))button.onclick=()=>$(button.dataset.close).close();
-function renderTeam(){ $('team-options').innerHTML=CARDS.map((c,i)=>`<label class="team-option ${c.color}"><input type="checkbox" data-team="${i}" ${team.includes(i)?'checked':''}><span class="team-symbol">${c.symbol}</span><b>${c.name}</b><span>${c.type}</span><small>固有スキル：${c.skill.name}（${c.skill.cooldown}ターン）</small><p>${c.skill.description}</p><div class="team-actions">${actions(c,null)}</div></label>`).join('');render();}
+$('hand').onclick=e=>{if(Date.now()<inputLockedUntil)return;const skill=e.target.closest('[data-skill]');if(skill){openSkill(Number(skill.dataset.skill));return;}const c=e.target.closest('[data-index]');if(c&&['roll','choose'].includes(game.phase))detail(Number(c.dataset.index));};
+$('use').onclick=()=>{if(game.phase!=='choose'||selected===null)return;const index=selected,target=$('normal-target')?Number($('normal-target').value):index;const a=useCard(game,'player',index,target);if(!a)return;selected=null;$('card-dialog').close();record(a);advance();};
+$('skill-use').onclick=()=>{if(selected===null)return;const index=selected,target=$('skill-target')?Number($('skill-target').value):index,a=useSkill(game,'player',index,target);if(!a)return;selected=null;inputLockedUntil=Date.now()+250;$('skill-dialog').close();record(a);advance();};
+$('front-options').onclick=e=>{const b=e.target.closest('[data-front]');if(!b)return;const index=Number(b.dataset.front);if(!selectFront(game,'player',index))return;$('front-dialog').close();logs.unshift({actor:'player',number:game.number,message:`${cardAt(game,'player',index).name}が前衛に出場`});render();advance();};
+$('front-dialog').addEventListener('cancel',e=>e.preventDefault());
+$('rules-button').onclick=()=>$('rules-dialog').showModal();for(const b of document.querySelectorAll('[data-close]'))b.onclick=()=>$(b.dataset.close).close();
+function renderTeam(){ $('team-options').innerHTML=CARDS.map((c,i)=>`<label class="team-option ${c.color}"><input type="checkbox" data-team="${i}" ${team.includes(i)?'checked':''}><span class="team-symbol">${c.symbol}</span><b>${c.name}</b><span>最大HP ${c.maxHp} ／ ${c.element}属性</span><span>${c.tags.join(' / ')}</span><small>固有スキル：${c.skill.name}（${c.skill.cooldown}ターン）</small><p>${c.skill.description}</p><div class="team-actions">${actions(c,null)}</div></label>`).join('');render();}
 $('team-options').onchange=e=>{const id=Number(e.target.dataset.team);if(e.target.checked){if(team.length===RULES.handSize){e.target.checked=false;$('team-status').textContent='先に1体の選択を外してください';return;}team.push(id);}else team=team.filter(n=>n!==id);render();};
-$('team-start').onclick=()=>{if(team.length!==RULES.handSize||game.phase!=='setup')return;game=createGame(team);logs=[];selected=null;$('last-action').textContent='固定チームで決闘開始。最初の数字を出そう。';render();$('roll').scrollIntoView({block:'center',behavior:'smooth'});};
+$('team-start').onclick=()=>{if(team.length!==RULES.handSize||game.phase!=='setup')return;game=createGame(team);logs=[];selected=null;$('last-action').textContent='最初の前衛を選んで決闘を始めよう。';render();advance();};
 $('restart').onclick=()=>{generation++;game=createGame(team);game.phase='setup';logs=[];selected=null;$('result-dialog').close();$('last-action').textContent='チームを選んで、新たな決闘へ。';renderTeam();$('team-setup').scrollIntoView({block:'start'});};
 $('review').onclick=()=>{$('result-dialog').close();$('last-action').innerHTML='<button id="open-result" class="quiet">結果を見る・もう一度遊ぶ ↗</button>';$('open-result').onclick=()=>$('result-dialog').showModal();};
 renderTeam();
